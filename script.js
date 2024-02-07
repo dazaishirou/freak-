@@ -289,22 +289,22 @@ window.addEventListener("load", () => {
     })(window, document, jQuery, {});
 
     Playlist.addSong(
-        "Kool-Aid",
-        "Bring me the horizon",
+        "Elden Ring",
+        "The Final Battle",
         "assets/disc/koolaid.png",
-        "assets/songs/koolaid.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "DArkside",
-        "Bring me the horizon",
-        "assets/disc/darkside.png",
         "assets/songs/EldenRing.mp3?raw=true"
     );
     Playlist.addSong(
-        "Heavy Metal",
-        "Bring me the horizon",
+        "F. Lacrimosa",
+        "Requiem in D Minor",
+        "assets/disc/darkside.png",
+        "assets/songs/Requiem.mp3?raw=true"
+    );
+    Playlist.addSong(
+        "Isabella’s Lullaby",
+        "The Promised Neverland",
         "assets/disc/amo.png",
-        "assets/songs/HeavyMetal.mp3?raw=true"
+        "assets/songs/Neverland.mp3?raw=true"
     );
    
 
