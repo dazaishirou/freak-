@@ -298,7 +298,7 @@ window.addEventListener("load", () => {
         "DArkside",
         "Bring me the horizon",
         "assets/disc/darkside.png",
-        "assets/songs/darskide.mp3?raw=true"
+        "assets/songs/EldenRing.mp3?raw=true"
     );
     Playlist.addSong(
         "Heavy Metal",
@@ -306,48 +306,7 @@ window.addEventListener("load", () => {
         "assets/disc/amo.png",
         "assets/songs/HeavyMetal.mp3?raw=true"
     );
-    Playlist.addSong(
-        "This fire burns",
-        "Killswitch Engage",
-        "assets/disc/ke.jpg",
-        "assets/songs/thisfire.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "Days of the phoenix",
-        "A Fire Inside",
-        "assets/disc/aod.png",
-        "assets/songs/daysofthephoenix.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "There's no going back",
-        "Sick Puppies",
-        "assets/disc/connect.png",
-        "assets/songs/tngb.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "Sugar Honey Ice Tea",
-        "Bring me the horizon",
-        "assets/disc/amo.png",
-        "assets/songs/shit.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "Fine again",
-        "Seether",
-        "assets/disc/disclaimer.png",
-        "assets/songs/fa.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "Trash",
-        "Korn",
-        "assets/disc/issues.png",
-        "assets/songs/trash.mp3?raw=true"
-    );
-    Playlist.addSong(
-        "Trash",
-        "Korn",
-        "assets/disc/issues.png",
-        "assets/songs/trash.mp3?raw=true"
-    );
+   
 
     // INICIAR PLAYLIST
     Player.init();
