@@ -44,15 +44,15 @@
         --ww: 1s;
         --aa: 17s;
         --f: blur(5px);
-        --scheme: rgb( 253, 5, 5);
+        --scheme: rgb( 255, 255, 255 );
         --y: 10px;
         --r: 4px;
         --i: #fd0505 url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\35\34\79\68\61\77\2e\70\6e\67)no-repeat center;
         --b: url(https://i.ibb.co/25vhCqq/IMG-20240121-120841.jpg)/* BACKGROUND IMAGE */
         ;
-        --c: #fff;
-        --φ-color: #fff;
-        --γ-bg: #fff
+        --c: #000;
+        --φ-color: #000;
+        --γ-bg: #000
     }
     
      ::selection {
