@@ -212,7 +212,7 @@
     }
     
     [name=\26_\2d] {
-        box-shadow: 0 0 0 5px rgba( 255, 255, 255 ), 0 0 0 10px rgba( 255, 255, 255 ), 0 0 10px 5px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 0 5px rgba( 255, 255, 255 ), 0 0 0 10px rgba( 0, 0, 0 ), 0 0 10px 5px rgba(0, 0, 0, .2);
         border-radius: calc(var(--y)*3);
         background: url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\32\68\37\71\6d\78\69\2e\70\6e\67)left 12px center no-repeat, #fff;
         width: calc(var(--y)*3.5);
