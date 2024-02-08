@@ -3,7 +3,7 @@
     }
     
      :root {
-        --bg: #000
+        --bg: #fff
     }
     
     @-webkit-keyframes f {
@@ -47,16 +47,16 @@
         --scheme: rgb( 255, 255, 255 );
         --y: 10px;
         --r: 4px;
-        --i: #fd0505 url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\35\34\79\68\61\77\2e\70\6e\67)no-repeat center;
+        --i: #ffff url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\35\34\79\68\61\77\2e\70\6e\67)no-repeat center;
         --b: url(https://i.ibb.co/25vhCqq/IMG-20240121-120841.jpg)/* BACKGROUND IMAGE */
         ;
-        --c: #000;
-        --φ-color: #000;
-        --γ-bg: #000
+        --c: #fff;
+        --φ-color: #fff;
+        --γ-bg: #fff
     }
     
      ::selection {
-        background: #000
+        background: #fff
     }
     
     * {
@@ -206,15 +206,15 @@
     [name=\26i_\2d] {
         width: calc(var(--y)*14);
         height: calc(var(--y)*14);
-        background: url(https://i.pinimg.com/564x/fa/68/26/fa6826598b28f4722b38b73d3f30b274.jpg)no-repeat center/cover, #fff/* PROFILE PIC */
+        background: url(https://i.pinimg.com/564x/fa/68/26/fa6826598b28f4722b38b73d3f30b274.jpg)no-repeat center/cover, #000/* PROFILE PIC */
         ;
         border-radius: 50%
     }
     
     [name=\26_\2d] {
-        box-shadow: 0 0 0 5px rgba(255, 255, 255 ), 0 0 0 10px rgba( 0, 0, 0 ), 0 0 10px 5px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 0 5px rgba( 0, 0, 0 ), 0 0 0 10px rgba(255, 255, 255), 0 0 10px 5px rgba(0, 0, 0, .2);
         border-radius: calc(var(--y)*3);
-        background: url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\32\68\37\71\6d\78\69\2e\70\6e\67)left 12px center no-repeat, #ffff;
+        background: url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\32\68\37\71\6d\78\69\2e\70\6e\67)left 12px center no-repeat, #fff;
         width: calc(var(--y)*3.5);
         height: calc(var(--y)*3.5)
     }
@@ -282,11 +282,11 @@
     
     [name=\26_\2d] p,
     div+ul p {
-        color: #0000
+        color: #5e5e5e
     }
     
     [name=\26i_\2d] {
-        border: 2px solid rgba( 255, 255, 255,  0.45);
+        border: 2px solid rgba(  0, 0, 0 , 0.45);
         padding: calc(var(--y)*1);
         background-clip: content-box;
         z-index: 1
@@ -359,24 +359,24 @@
     }
     
     div+ul a:nth-child(1) {
-        --c: #000
+        --c: #fff
     }
     
     div+ul a:nth-child(2) {
-        --c: #000
+        --c: #fff
     }
     
     div+ul a:nth-child(3) {
-        --c: #000
+        --c: #fff
     }
     
     div+ul a:nth-child(4) {
-        --c: #000
+        --c: #fff
     }
     
     a h1,
     a p {
-        color: #fff
+        color: #000
     }
     
     a h1 {
@@ -391,14 +391,14 @@
     }
     
     [name=\26\61\64\64] span {
-        color: #fff;
+        color: #000;
         letter-spacing: 0;
         font: 600 11px 'Arial';
         -webkit-user-select: all;
         user-select: all;
         border-radius: 20px;
         padding: .2em.5em;
-        background: rgba( 255, 18, 18)
+        background: rgba( 255, 255, 255 )
     }
     
     [name=\26\61\64\64],
@@ -490,8 +490,8 @@
     
     [name=__]:after {
         height: 20vh;
-        background-image: -webkit-linear-gradient(bottom, #000 0%, rgba(235, 235, 235, 0)100%);
-        background-image: linear-gradient(0deg, #000 0%, rgba(235, 235, 235, 0)100%)
+        background-image: -webkit-linear-gradient(bottom, #000 0%, rgba( 255, 255, 255, 0)100%);
+        background-image: linear-gradient(0deg, #000 0%, rgba( 255, 255, 255, 0)100%)
     }
     
     [name=_\2d]::after {
@@ -549,7 +549,7 @@
     }
     
     li:empty {
-        background: #ff0000
+        background:  #ffffff
     }
     
     li:empty {
@@ -662,7 +662,7 @@
     
     li:empty:nth-child(2n+2) {
         background: none;
-        border: 2px solid #ff0000
+        border: 2px solid  #ffffff 
     }
     
     [id^=\2d\66\72] li,
@@ -730,7 +730,7 @@
     }
     
     [id^=\2d\66\72] a:not([href=\23\65\78\69\74]) {
-        background: rgba( 255, 0, 0, 0.31)url(http://i68.tinypic.com/16c9i08.png)center no-repeat
+        background: rgba( 255, 255, 255, 0.31)url(http://i68.tinypic.com/16c9i08.png)center no-repeat
     }
     
     [id^=\2d\66\72] a:not([href=\23\65\78\69\74]):hover {
