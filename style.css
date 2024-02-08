@@ -481,17 +481,17 @@
     }
     
     [name=__]:before {
-        background-image: -webkit-linear-gradient(top, #0000 0%, rgba(255, 255, 255, 0)100%)
+        background-image: -webkit-linear-gradient(top, #fff 0%, rgba(255, 255, 255, 0)100%)
     }
     
     [name=__]:before {
-        background-image: linear-gradient(-180deg, #000 0%, rgba(255, 255, 255, 0)100%)
+        background-image: linear-gradient(-180deg, #fff 0%, rgba(255, 255, 255, 0)100%)
     }
     
     [name=__]:after {
         height: 20vh;
-        background-image: -webkit-linear-gradient(bottom, #000 0%, rgba( 0, 0, 0 , 0)100%);
-        background-image: linear-gradient(0deg, #000 0%, rgba( 0, 0, 0 , 0)100%)
+        background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba( 0, 0, 0 , 0)100%);
+        background-image: linear-gradient(0deg, #fff 0%, rgba( 0, 0, 0 , 0)100%)
     }
     
     [name=_\2d]::after {
