@@ -686,7 +686,7 @@
     }
     
     [id^=\2d\66\72] li:nth-child(even) {
-        background: rgba( 255, 255, 255, .25)
+        background: rgba( 0, 0, 0  , .25)
     }
     
     [id^=\2d\66\72] h1,
