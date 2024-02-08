@@ -44,7 +44,7 @@
         --ww: 1s;
         --aa: 17s;
         --f: blur(5px);
-        --scheme: rgb( 0, 0, 0 );
+        --scheme: rgb( 253, 5, 5);
         --y: 10px;
         --r: 4px;
         --i: #fd0505 url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\35\34\79\68\61\77\2e\70\6e\67)no-repeat center;
@@ -200,7 +200,7 @@
         width: calc(var(--y)*45);
         height: calc(var(--y)*37);
         border-radius: 4px;
-        box-shadow: 0 calc(var(--y)*1)calc(var(--y)*1)rgba( 255, 255, 255 )
+        box-shadow: 0 calc(var(--y)*1)calc(var(--y)*1)rgba( 255, 18, 18)
     }
     
     [name=\26i_\2d] {
@@ -212,7 +212,7 @@
     }
     
     [name=\26_\2d] {
-        box-shadow: 0 0 0 5px rgba( 255, 255, 255 ), 0 0 0 10px rgba( 0, 0, 0 ), 0 0 10px 5px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 0 5px rgba( 255, 18, 18), 0 0 0 10px rgba( 255, 18, 18), 0 0 10px 5px rgba(0, 0, 0, .2);
         border-radius: calc(var(--y)*3);
         background: url(\68\74\74\70\3a\2f\2f\69\36\38\2e\74\69\6e\79\70\69\63\2e\63\6f\6d\2f\32\68\37\71\6d\78\69\2e\70\6e\67)left 12px center no-repeat, #fff;
         width: calc(var(--y)*3.5);
@@ -282,7 +282,7 @@
     
     [name=\26_\2d] p,
     div+ul p {
-        color: #000
+        color: #5e5e5e
     }
     
     [name=\26i_\2d] {
@@ -398,7 +398,7 @@
         user-select: all;
         border-radius: 20px;
         padding: .2em.5em;
-        background: rgba( 255, 255, 255 )
+        background: rgba( 255, 18, 18)
     }
     
     [name=\26\61\64\64],
@@ -428,7 +428,7 @@
     }
     
     [name=_f] {
-        background: #000
+        background: #fff
     }
     
     [id=\26_m],
@@ -445,7 +445,7 @@
     }
     
     [name=_\2d] {
-        background: var(--b)no-repeat top center/cover, #000
+        background: var(--b)no-repeat top center/cover, #ffff
     }
     
     @-webkit-keyframes _ {
@@ -481,7 +481,7 @@
     }
     
     [name=__]:before {
-        background-image: -webkit-linear-gradient(top, #000 0%, rgba(255, 255, 255, 0)100%)
+        background-image: -webkit-linear-gradient(top, #0000 0%, rgba(255, 255, 255, 0)100%)
     }
     
     [name=__]:before {
@@ -490,14 +490,14 @@
     
     [name=__]:after {
         height: 20vh;
-        background-image: -webkit-linear-gradient(bottom, #000 0%, rgba( 0, 0, 0 , 0)100%);
-        background-image: linear-gradient(0deg, #000 0%, rgba( 0, 0, 0 , 0)100%)
+        background-image: -webkit-linear-gradient(bottom, #000 0%, rgba(235, 235, 235, 0)100%);
+        background-image: linear-gradient(0deg, #000 0%, rgba(235, 235, 235, 0)100%)
     }
     
     [name=_\2d]::after {
         height: 98.6%;
         display: block;
-        background: linear-gradient(0deg, #000 -350%, transparent);
+        background: linear-gradient(0deg, #fff -350%, transparent);
         border-radius: 0 0 5px 5px
     }
     
@@ -549,7 +549,7 @@
     }
     
     li:empty {
-        background: #ffff
+        background: #ff0000
     }
     
     li:empty {
@@ -662,7 +662,7 @@
     
     li:empty:nth-child(2n+2) {
         background: none;
-        border: 2px solid #0000
+        border: 2px solid #ff0000
     }
     
     [id^=\2d\66\72] li,
@@ -686,7 +686,7 @@
     }
     
     [id^=\2d\66\72] li:nth-child(even) {
-        background: rgba( 0, 0, 0  , .25)
+        background: rgba( 255, 255, 255, .25)
     }
     
     [id^=\2d\66\72] h1,
