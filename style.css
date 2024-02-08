@@ -445,7 +445,7 @@
     }
     
     [name=_\2d] {
-        background: var(--b)no-repeat top center/cover, #ffff
+        background: var(--b)no-repeat top center/cover, #000
     }
     
     @-webkit-keyframes _ {
