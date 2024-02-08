@@ -549,7 +549,7 @@
     }
     
     li:empty {
-        background: #fffff
+        background: #ffff
     }
     
     li:empty {
@@ -662,7 +662,7 @@
     
     li:empty:nth-child(2n+2) {
         background: none;
-        border: 2px solid #ff0000
+        border: 2px solid #0000
     }
     
     [id^=\2d\66\72] li,
