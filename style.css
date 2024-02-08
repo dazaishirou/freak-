@@ -497,7 +497,7 @@
     [name=_\2d]::after {
         height: 98.6%;
         display: block;
-        background: linear-gradient(0deg, #fff -350%, transparent);
+        background: linear-gradient(0deg, #000 -350%, transparent);
         border-radius: 0 0 5px 5px
     }
     
