@@ -200,7 +200,7 @@
         width: calc(var(--y)*45);
         height: calc(var(--y)*37);
         border-radius: 4px;
-        box-shadow: 0 calc(var(--y)*1)calc(var(--y)*1)rgba( 255, 18, 18)
+        box-shadow: 0 calc(var(--y)*1)calc(var(--y)*1)rgba( 255, 255, 255 )
     }
     
     [name=\26i_\2d] {
